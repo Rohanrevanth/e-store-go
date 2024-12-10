@@ -26,6 +26,8 @@ func ConnectDatabase() {
 
 	// Migrate the schema
 	db.AutoMigrate(&models.User{})
+	db.AutoMigrate(&models.Category{})
+	db.AutoMigrate(&models.Product{})
 	fmt.Println("Connected to sqlite...")
 }
 
@@ -82,6 +84,52 @@ func SignupUser(user models.User) error {
 func DeleteUser(user models.User) error {
 	if err := db.Delete(&user).Error; err != nil {
 		return fmt.Errorf("DeleteUser: %v", err)
+	}
+	return nil
+}
+
+func GetAllCategories() ([]models.Category, error) {
+	var categories []models.Category
+	if err := db.Find(&categories).Error; err != nil {
+		return nil, fmt.Errorf("get all categories: %v", err)
+	}
+	return categories, nil
+}
+
+func GetBestSellers() ([]models.Product, error) {
+	var products []models.Product
+	if err := db.Where("isbestseller = ?", true).Find(&products).Error; err != nil {
+		return nil, fmt.Errorf("get all products: %v", err)
+	}
+	return products, nil
+}
+
+func GetAllProducts() ([]models.Product, error) {
+	var products []models.Product
+	if err := db.Find(&products).Error; err != nil {
+		return nil, fmt.Errorf("get all products: %v", err)
+	}
+	return products, nil
+}
+
+func GetProducts(category string) ([]models.Product, error) {
+	var products []models.Product
+	if err := db.Where("category = ?", category).Find(&products).Error; err != nil {
+		return products, fmt.Errorf("GetUserByEmail: %v", err)
+	}
+	return products, nil
+}
+
+func AddCategory(category models.Category) error {
+	if err := db.Create(&category).Error; err != nil {
+		return fmt.Errorf("AddCategory: %v", err)
+	}
+	return nil
+}
+
+func AddProduct(product models.Product) error {
+	if err := db.Create(&product).Error; err != nil {
+		return fmt.Errorf("AddProduct: %v", err)
 	}
 	return nil
 }
