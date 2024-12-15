@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+	"strings"
 
 	"github.com/Rohanrevanth/e-store-go/auth"
 	"github.com/Rohanrevanth/e-store-go/database"
@@ -85,7 +86,7 @@ func RegisterUsers(c *gin.Context) {
 			return
 		}
 
-		err := database.SignupUser(user)
+		err := database.AddUser(user)
 		if err != nil {
 			log.Println("Error registering user:", err)
 			continue // Skip this user and proceed with the others
@@ -136,4 +137,216 @@ func Login(c *gin.Context) {
 	}
 
 	c.JSON(http.StatusOK, gin.H{"token": token, "user": user})
+}
+
+func GetUserCart(c *gin.Context) {
+	id := c.Param("id")
+	cart, err := database.GetUserCart(id)
+	if err != nil {
+		if strings.Contains(err.Error(), "no cart found") {
+			// c.JSON(http.StatusNotFound, gin.H{"status": "error", "message": "Cart not found for the user"})
+			c.JSON(http.StatusOK, gin.H{"status": "success", "data": "{}"})
+		} else {
+			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to retrieve cart"})
+		}
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": cart})
+}
+
+func AddProductToCart(c *gin.Context) {
+	id := c.Param("id")
+	var item models.CartItem
+	if err := c.BindJSON(&item); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind cartitem"})
+		return
+	}
+	err := database.AddItemToCart(id, item.ProductID, item.Quantity)
+	if err != nil {
+		log.Println("Error adding to cart:", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to add to cart"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "message": "Products added"})
+}
+
+func RemoveItemFromCart(c *gin.Context) {
+	id := c.Param("id")
+	var item models.CartItem
+	if err := c.BindJSON(&item); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind cartitem"})
+		return
+	}
+	err := database.RemoveItemFromCart(id, item.ProductID, item.Quantity)
+	if err != nil {
+		log.Println("Error removing from cart:", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to remove from cart"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "message": "Product(s) removed"})
+}
+
+func PlaceOrder(c *gin.Context) {
+	// id := c.Param("id")
+	var item models.Order
+	if err := c.BindJSON(&item); err != nil {
+		log.Println("Error binding JSON:", err)
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind order json"})
+		return
+	}
+	err := database.PlaceOrder(item.UserID, item.PaymentMethod, item.ShippingDetails, item.CouponCode)
+	if err != nil {
+		log.Println("Error placing order:", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to place order"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "message": "Order placed"})
+}
+
+func GetUserOders(c *gin.Context) {
+	id := c.Param("id")
+	cart, err := database.GetUserOrders(id)
+	if err != nil {
+		if strings.Contains(err.Error(), "no orders found") {
+			// c.JSON(http.StatusNotFound, gin.H{"status": "error", "message": "Cart not found for the user"})
+			c.JSON(http.StatusOK, gin.H{"status": "success", "data": "{}"})
+		} else {
+			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to retrieve orders"})
+		}
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": cart})
+}
+
+func SaveAddress(c *gin.Context) {
+	id := c.Param("id")
+	user, err := database.GetUserByID(id)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"status": "error", "message": "User not found"})
+		return
+	}
+
+	var addressString models.AddressStringObj
+	if err := c.BindJSON(&addressString); err != nil {
+		log.Println("Error binding JSON:", err)
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind addressString json"})
+		return
+	}
+
+	user.SavedAddress = addressString.Address
+
+	err = database.SaveUser(user)
+	if err != nil {
+		log.Println("Error updating user:", err)
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": user})
+}
+
+func AddCoupon(c *gin.Context) {
+	var coupon models.CouponObject
+	if err := c.BindJSON(&coupon); err != nil {
+		log.Println("Error binding JSON:", err)
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind coupon json"})
+		return
+	}
+	err := database.AddCoupon(coupon)
+	if err != nil {
+		log.Println("Error adding coupon:", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to add coupon"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "message": "Coupon added"})
+}
+
+func SaveCoupon(c *gin.Context) {
+	var coupon models.CouponObject
+	if err := c.BindJSON(&coupon); err != nil {
+		log.Println("Error binding JSON:", err)
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind coupon json"})
+		return
+	}
+	err := database.SaveCoupon(coupon)
+	if err != nil {
+		log.Println("Error saving coupon:", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to save coupon"})
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "message": "Coupon saved"})
+}
+
+func GetCoupons(c *gin.Context) {
+	coupons, err := database.GetAllCoupons()
+	if err != nil {
+		log.Println("Error fetching coupons:", err)
+		c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to fetch coupons"})
+		return
+	}
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": coupons})
+}
+
+func DeleteCoupon(c *gin.Context) {
+	var coupon models.CouponObject
+	if err := c.BindJSON(&coupon); err != nil {
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind coupon"})
+		return
+	}
+	err := database.DeleteCoupon(coupon)
+	if err != nil {
+		c.IndentedJSON(http.StatusInternalServerError, gin.H{"error": "Failed to delete coupon"})
+		return
+	}
+	c.IndentedJSON(http.StatusOK, gin.H{"message": "coupon deleted successfully"})
+}
+
+func ApplyCoupon(c *gin.Context) {
+	id := c.Param("id")
+	user, err := database.GetUserByID(id)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"status": "error", "message": "User not found"})
+		return
+	}
+
+	var couponCodeObj models.CouponCodeObj
+	if err := c.BindJSON(&couponCodeObj); err != nil {
+		log.Println("Error binding JSON:", err)
+		c.JSON(http.StatusBadRequest, gin.H{"error": "Failed to bind couponCodeObj json"})
+		return
+	}
+
+	fmt.Println(couponCodeObj)
+
+	coupon, err := database.GetCoupon(couponCodeObj.CouponCode)
+	if err != nil {
+		c.JSON(http.StatusNotFound, gin.H{"status": "error", "message": "Coupon not found"})
+		return
+	}
+
+	fmt.Println(coupon)
+
+	isCouponApplicable := checkForCode(user.OrdersCount, coupon.OrderFrequency)
+
+	if isCouponApplicable {
+		c.JSON(http.StatusOK, gin.H{"status": "success", "data": coupon})
+	} else {
+		c.JSON(http.StatusOK, gin.H{"status": "success", "data": ""})
+	}
+}
+
+func checkForCode(orderCount, frequency int64) bool {
+	fmt.Println(orderCount, frequency)
+	if frequency <= 0 {
+		return false
+	}
+	if orderCount > 0 && orderCount%frequency == 0 {
+		return true
+	}
+	return false
 }

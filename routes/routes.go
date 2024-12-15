@@ -1,6 +1,7 @@
 package routes
 
 import (
+	"github.com/Rohanrevanth/e-store-go/auth"
 	"github.com/Rohanrevanth/e-store-go/controllers"
 
 	"github.com/gin-gonic/gin"
@@ -23,8 +24,21 @@ func RegisterRoutes(router *gin.Engine) {
 	router.POST("/add-products", controllers.AddProducts)
 	router.POST("/get-products", controllers.GetProducts)
 
-	// protected := router.Group("/").Use(auth.JWTAuthMiddleware())
-	// {
-	// 	protected.GET("/users", controllers.GetAllUsers)
-	// }
+	router.GET("/get-orders/:id", controllers.GetUserOders)
+
+	router.GET("/get-coupons", controllers.GetCoupons)
+	// router.GET("/get-coupon/:id", controllers.SaveCoupon)
+	router.POST("/add-coupon", controllers.AddCoupon)
+	router.POST("/update-coupon", controllers.SaveCoupon)
+	router.POST("/delete-coupon", controllers.DeleteCoupon)
+
+	protected := router.Group("/").Use(auth.JWTAuthMiddleware())
+	{
+		protected.GET("/get-cart/:id", controllers.GetUserCart)
+		protected.POST("/add-to-cart/:id", controllers.AddProductToCart)
+		protected.POST("/delete-from-cart/:id", controllers.RemoveItemFromCart)
+		protected.POST("/save-address/:id", controllers.SaveAddress)
+		protected.POST("/apply-coupon/:id", controllers.ApplyCoupon)
+		protected.POST("/place-order", controllers.PlaceOrder)
+	}
 }

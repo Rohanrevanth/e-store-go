@@ -13,11 +13,11 @@ type Category struct {
 
 type Product struct {
 	gorm.Model
-	Name         string `json:"name"`
-	Description  string `json:"description"`
-	Details      string `json:"details"`
-	Image        string `json:"image"`
-	Category     string `json:"category"`
-	Price        int64  `json:"price"`
-	Isbestseller bool   `json:"isbestseller"`
+	Name         string  `json:"name"`
+	Description  string  `json:"description"`
+	Details      string  `json:"details"`
+	Image        string  `json:"image"`
+	Category     string  `json:"category"`
+	Price        float64 `json:"price"`
+	Isbestseller bool    `json:"isbestseller"`
 }
