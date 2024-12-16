@@ -181,6 +181,18 @@ func GetUserOrders(id string) ([]models.Order, error) {
 	return orders, nil
 }
 
+func GetAllOrders() ([]models.Order, error) {
+	var orders []models.Order
+	err := db.Preload("OrderItems.Product").Find(&orders).Error
+	if err != nil {
+		if errors.Is(err, gorm.ErrRecordNotFound) {
+			return orders, fmt.Errorf("GetAllOrders: no orders found")
+		}
+		return orders, fmt.Errorf("GetAllOrders: %v", err)
+	}
+	return orders, nil
+}
+
 func AddItemToCart(userID string, productID uint, quantity int) error {
 	var cart models.Cart
 	err := db.Where("user_id = ?", userID).First(&cart).Error

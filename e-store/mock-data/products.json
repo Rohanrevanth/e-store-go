@@ -1,0 +1,551 @@
+[
+  {
+    "name": "Smartphone Pro Max",
+    "description": "The Smartphone Pro Max combines cutting-edge technology with a sleek design, offering lightning-fast performance, a stunning OLED display, and a powerful camera system. Whether you're gaming, streaming, or multitasking, this device delivers an unparalleled experience. It also comes with 5G connectivity, ensuring you stay ahead of the curve. The battery lasts all day, and the device charges quickly. With a range of customization options, you can tailor the phone to your liking. Get ready to experience the future of smartphones with this remarkable device.",
+    "details": "\"\\\"{\\\\\\\"screen_size\\\\\\\": \\\\\\\"6.7 inches\\\\\\\", \\\\\\\"battery\\\\\\\": \\\\\\\"4500mAh\\\\\\\", \\\\\\\"camera\\\\\\\": \\\\\\\"108MP\\\\\\\", \\\\\\\"processor\\\\\\\": \\\\\\\"Octa-core\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/18403793/pexels-photo-18403793.jpeg",
+    "category": "Electronics",
+    "price": 69999,
+    "isbestseller": true
+  },
+  {
+    "name": "Luxury Leather Bag",
+    "description": "Crafted from premium leather, this luxury bag combines timeless style with modern functionality. Featuring multiple compartments for your essentials, the bag is designed for those who demand both elegance and practicality. Whether for business or leisure, the quality craftsmanship ensures durability for years to come. The sleek, minimalist design pairs perfectly with both casual and formal outfits. With its spacious interior, it can hold everything you need for a day out or an important meeting. The leather only gets better with age, adding a unique charm.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"genuine leather\\\\\\\", \\\\\\\"color\\\\\\\": \\\\\\\"black\\\\\\\", \\\\\\\"dimensions\\\\\\\": \\\\\\\"14 x 10 x 5 inches\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"600g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/167703/pexels-photo-167703.jpeg",
+    "category": "Fashion",
+    "price": 7999,
+    "isbestseller": false
+  },
+  {
+    "name": "Electric Coffee Maker",
+    "description": "Wake up to the rich aroma of freshly brewed coffee every morning with this electric coffee maker. It features a programmable timer, so you can have your coffee ready as soon as you wake up. The 12-cup capacity ensures you have enough to share with family or friends. With a sleek stainless steel design, it complements any kitchen decor. The brewing process is quick and efficient, extracting the full flavor from your coffee grounds. The machine also features an auto-shutoff function for safety, ensuring peace of mind.",
+    "details": "\"\\\"{\\\\\\\"capacity\\\\\\\": \\\\\\\"12 cups\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"stainless steel\\\\\\\", \\\\\\\"timer\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"1.2kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/15882561/pexels-photo-15882561.jpeg",
+    "category": "Home & Kitchen",
+    "price": 2999,
+    "isbestseller": false
+  },
+  {
+    "name": "Sports Running Shoes",
+    "description": "These running shoes are designed for ultimate comfort and performance. With a lightweight, breathable mesh upper and a cushioned sole, they ensure maximum support for both casual joggers and serious runners. The sole provides excellent grip, even on wet surfaces, making them perfect for any weather. The shoes are engineered to reduce impact, preventing injuries while enhancing your stride. Whether you're training for a marathon or just out for a run, these shoes offer the perfect balance of style, comfort, and durability.",
+    "details": "\"\\\"{\\\\\\\"size\\\\\\\": \\\\\\\"42\\\\\\\", \\\\\\\"color\\\\\\\": \\\\\\\"blue\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"mesh\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"320g\\\\\\\", \\\\\\\"purpose\\\\\\\": \\\\\\\"running\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/29661129/pexels-photo-29661129.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 2599,
+    "isbestseller": true
+  },
+  {
+    "name": "Leather Wallet",
+    "description": "This premium leather wallet is both stylish and functional. With ample space for your cards, cash, and IDs, it keeps everything organized while remaining compact enough to fit in your pocket. The leather is soft yet durable, and the craftsmanship is second to none. Over time, the leather will develop a unique patina, making the wallet even more special. The wallet is designed to last for years, maintaining its elegance and practicality. It's the perfect gift for someone who appreciates quality craftsmanship and timeless style.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"genuine leather\\\\\\\", \\\\\\\"color\\\\\\\": \\\\\\\"brown\\\\\\\", \\\\\\\"dimensions\\\\\\\": \\\\\\\"4 x 3 inches\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"150g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/982657/pexels-photo-982657.jpeg",
+    "category": "Fashion",
+    "price": 1499,
+    "isbestseller": false
+  },
+  {
+    "name": "Bluetooth Headphones",
+    "description": "Enjoy superior sound quality with these Bluetooth headphones, featuring noise-canceling technology and a long battery life. Whether you're working out or commuting, these headphones will deliver clear, rich sound without interruptions. The adjustable headband ensures a comfortable fit, while the ear cups provide passive noise isolation. With intuitive controls, you can easily adjust volume or skip tracks without taking your phone out of your pocket. The headphones are foldable for easy storage and come with a travel case for protection.",
+    "details": "\"\\\"{\\\\\\\"color\\\\\\\": \\\\\\\"black\\\\\\\", \\\\\\\"battery_life\\\\\\\": \\\\\\\"20 hours\\\\\\\", \\\\\\\"connection\\\\\\\": \\\\\\\"Bluetooth\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"250g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/3771823/pexels-photo-3771823.jpeg",
+    "category": "Electronics",
+    "price": 1999,
+    "isbestseller": false
+  },
+  {
+    "name": "Stylish Sunglasses",
+    "description": "These sunglasses combine fashion and function, offering UV protection while keeping you stylish. The high-quality lenses provide clear vision while protecting your eyes from harmful UV rays. The lightweight frame ensures comfort, even during long periods of wear. Perfect for sunny days, outdoor activities, or just lounging by the pool, these sunglasses are a must-have accessory. The sleek design pairs well with both casual and formal outfits. Whether you're at the beach or out on the town, these sunglasses are a stylish way to protect your eyes.",
+    "details": "\"\\\"{\\\\\\\"frame_material\\\\\\\": \\\\\\\"metal\\\\\\\", \\\\\\\"lens_color\\\\\\\": \\\\\\\"grey\\\\\\\", \\\\\\\"UV_protection\\\\\\\": \\\\\\\"100%\\\\\\\", \\\\\\\"size\\\\\\\": \\\\\\\"large\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/29708196/pexels-photo-29708196.jpeg",
+    "category": "Fashion",
+    "price": 1299,
+    "isbestseller": false
+  },
+  {
+    "name": "Smart Watch",
+    "description": "This smart watch tracks your activity, monitors your heart rate, and keeps you connected with notifications right on your wrist. It features a sleek design with a customizable watch face and interchangeable bands. With built-in GPS, you can track your runs, walks, and bike rides, while the water-resistant design makes it suitable for any environment. The watch also supports notifications for calls, messages, and emails, keeping you in touch without having to reach for your phone.",
+    "details": "\"\\\"{\\\\\\\"battery_life\\\\\\\": \\\\\\\"48 hours\\\\\\\", \\\\\\\"water_resistant\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"GPS\\\\\\\": \\\\\\\"built-in\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"100g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/267394/pexels-photo-267394.jpeg",
+    "category": "Electronics",
+    "price": 3499,
+    "isbestseller": true
+  },
+  {
+    "name": "Wireless Mouse",
+    "description": "This wireless mouse offers precision and comfort for both work and play. With a sleek ergonomic design, it fits comfortably in your hand, ensuring that your wrist stays relaxed during long hours of use. The mouse features a smooth scroll wheel, responsive buttons, and a long-lasting battery. Whether you're using it for work, gaming, or browsing the web, this mouse delivers exceptional performance. Its wireless connection ensures you have more freedom of movement without dealing with tangled cords.",
+    "details": "\"\\\"{\\\\\\\"color\\\\\\\": \\\\\\\"black\\\\\\\", \\\\\\\"connection\\\\\\\": \\\\\\\"wireless\\\\\\\", \\\\\\\"battery\\\\\\\": \\\\\\\"1 year\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"150g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/27200831/pexels-photo-27200831.jpeg",
+    "category": "Electronics",
+    "price": 899,
+    "isbestseller": false
+  },
+  {
+    "name": "Ceramic Dinnerware Set",
+    "description": "This 16-piece ceramic dinnerware set includes everything you need for a stylish and functional dining experience. The set features plates, bowls, and mugs in a timeless design that fits any occasion, from casual dinners to elegant events. Each piece is crafted from high-quality ceramic, ensuring durability and longevity. The set is microwave and dishwasher-safe, making cleanup a breeze. Whether you're hosting a dinner party or enjoying a family meal, this dinnerware set is both practical and beautiful.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"ceramic\\\\\\\", \\\\\\\"pieces\\\\\\\": \\\\\\\"16\\\\\\\", \\\\\\\"color\\\\\\\": \\\\\\\"white\\\\\\\", \\\\\\\"dishwasher_safe\\\\\\\": \\\\\\\"yes\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/9736675/pexels-photo-9736675.jpeg",
+    "category": "Home & Kitchen",
+    "price": 2499,
+    "isbestseller": false
+  },
+  {
+    "name": "4K Ultra Wide TV",
+    "description": "Experience your favorite movies and shows in stunning detail with this 4K Ultra HD TV. The large screen provides crisp, vibrant visuals with enhanced color accuracy, and the high-definition resolution ensures every scene is clear. Perfect for movie nights, gaming, or streaming your favorite content. With built-in smart features, you can easily access apps, browse the internet, and enjoy seamless connectivity. Its sleek design makes it a perfect addition to any living room or entertainment setup. Get ready to immerse yourself in incredible visuals with this top-of-the-line TV.",
+    "details": "\"\\\"{\\\\\\\"screen_size\\\\\\\": \\\\\\\"55 inches\\\\\\\", \\\\\\\"resolution\\\\\\\": \\\\\\\"4K\\\\\\\", \\\\\\\"smart_tv\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"12kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/14495927/pexels-photo-14495927.jpeg",
+    "category": "Electronics",
+    "price": 54999,
+    "isbestseller": true
+  },
+  {
+    "name": "Smart Fitness Band",
+    "description": "Track your health and fitness goals with this smart fitness band. It offers real-time tracking of steps, heart rate, calories burned, and sleep patterns. With a sleek, lightweight design, this band is comfortable enough to wear all day and night. The waterproof feature makes it suitable for swimming or exercising in all weather conditions. Sync the band with your smartphone to receive notifications for calls, texts, and apps. Stay on top of your fitness journey with personalized insights and progress reports.",
+    "details": "\"\\\"{\\\\\\\"battery_life\\\\\\\": \\\\\\\"7 days\\\\\\\", \\\\\\\"waterproof\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"screen_type\\\\\\\": \\\\\\\"OLED\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"25g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/11031463/pexels-photo-11031463.png",
+    "category": "Sports & Outdoors",
+    "price": 1499,
+    "isbestseller": false
+  },
+  {
+    "name": "Stainless Steel Thermos",
+    "description": "Keep your drinks hot or cold for hours with this stainless steel thermos. Designed for maximum insulation, it maintains the temperature of your beverages while being durable and easy to carry. The sleek, spill-proof design ensures that your drink stays secure during travel. Whether you're on a hike, at work, or in the car, this thermos is your ideal companion for enjoying your favorite drinks at the perfect temperature. It's also easy to clean and comes in a variety of sizes to fit your needs.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"stainless steel\\\\\\\", \\\\\\\"capacity\\\\\\\": \\\\\\\"500ml\\\\\\\", \\\\\\\"color\\\\\\\": \\\\\\\"black\\\\\\\", \\\\\\\"insulation\\\\\\\": \\\\\\\"double-wall\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/7166147/pexels-photo-7166147.jpeg",
+    "category": "Home & Kitchen",
+    "price": 899,
+    "isbestseller": false
+  },
+  {
+    "name": "Portable Bluetooth Speaker",
+    "description": "Enjoy high-quality sound anywhere with this portable Bluetooth speaker. Its compact design makes it easy to take on the go, while the powerful bass and crisp treble offer an impressive listening experience. The speaker is water-resistant, making it perfect for outdoor activities, from beach days to hiking trips. The long battery life ensures your music keeps playing for hours, and the built-in microphone allows for hands-free calls. With a wireless range of up to 30 feet, you can easily connect your device and enjoy music wherever you are.",
+    "details": "\"\\\"{\\\\\\\"battery_life\\\\\\\": \\\\\\\"10 hours\\\\\\\", \\\\\\\"connection\\\\\\\": \\\\\\\"Bluetooth\\\\\\\", \\\\\\\"water_resistant\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"500g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/19867291/pexels-photo-19867291.jpeg",
+    "category": "Electronics",
+    "price": 2499,
+    "isbestseller": false
+  },
+  {
+    "name": "Camping Tent",
+    "description": "Stay comfortable while exploring the outdoors with this spacious camping tent. It provides protection from the elements, featuring waterproof materials and a breathable design to keep you cool during warm nights. With a quick setup feature, you'll have your tent up in minutes, leaving more time to enjoy the great outdoors. The tent comfortably fits 4 people, with separate storage areas for your gear. Whether you're camping, hiking, or enjoying a weekend getaway, this tent offers the perfect balance of comfort, convenience, and durability.",
+    "details": "\"\\\"{\\\\\\\"capacity\\\\\\\": \\\\\\\"4 people\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"waterproof\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"3kg\\\\\\\", \\\\\\\"setup_time\\\\\\\": \\\\\\\"5 minutes\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/1687845/pexels-photo-1687845.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 4999,
+    "isbestseller": false
+  },
+  {
+    "name": "Home Espresso Machine",
+    "description": "Brew barista-quality coffee from the comfort of your home with this espresso machine. Equipped with a professional-grade steam wand for frothing milk and an advanced brewing system, this machine delivers rich, flavorful coffee with every cup. It comes with a built-in grinder for fresh coffee grounds, ensuring that each shot is as fresh as possible. The sleek stainless steel finish complements any kitchen decor, and the intuitive controls make it easy to customize your coffee just the way you like it. Enjoy your morning espresso or cappuccino with this state-of-the-art machine.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"stainless steel\\\\\\\", \\\\\\\"water_tank_capacity\\\\\\\": \\\\\\\"2L\\\\\\\", \\\\\\\"grinder\\\\\\\": \\\\\\\"built-in\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/6589215/pexels-photo-6589215.jpeg",
+    "category": "Home & Kitchen",
+    "price": 12999,
+    "isbestseller": true
+  },
+  {
+    "name": "Wooden Coffee Table",
+    "description": "This elegant wooden coffee table is the perfect centerpiece for any living room. Its minimalist design features a sturdy wooden frame and a smooth, polished finish, offering both style and functionality. The spacious top provides plenty of room for books, decor, or snacks, while the lower shelf offers additional storage. Made from high-quality wood, this table is designed to last for years to come. It easily complements any decor, from modern to rustic, and is ideal for both casual and formal settings.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"wood\\\\\\\", \\\\\\\"dimensions\\\\\\\": \\\\\\\"120x60x40 cm\\\\\\\", \\\\\\\"color\\\\\\\": \\\\\\\"brown\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"20kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/7617026/pexels-photo-7617026.jpeg",
+    "category": "Home & Kitchen",
+    "price": 3999,
+    "isbestseller": false
+  },
+  {
+    "name": "Adjustable Office Chair",
+    "description": "This ergonomic office chair is designed to provide maximum comfort and support during long hours of work. It features an adjustable backrest, seat height, and armrests to ensure you find the perfect position. The breathable fabric and cushioned seat provide comfort, while the sturdy base and wheels allow for easy movement around your office space. Whether you're working from home or in a corporate setting, this chair is built to keep you comfortable and focused. It's a must-have for anyone who spends long hours at their desk.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"mesh fabric\\\\\\\", \\\\\\\"adjustable\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight_capacity\\\\\\\": \\\\\\\"120kg\\\\\\\", \\\\\\\"dimensions\\\\\\\": \\\\\\\"45x45x90 cm\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/13871173/pexels-photo-13871173.jpeg",
+    "category": "Furniture",
+    "price": 6999,
+    "isbestseller": false
+  },
+  {
+    "name": "Portable Power Bank",
+    "description": "Never run out of battery again with this portable power bank. Capable of charging your devices on the go, it ensures you're always connected. The compact design makes it easy to carry in your bag or pocket, and its large capacity can charge smartphones, tablets, and other USB-powered devices multiple times. With fast-charging technology, you can quickly power up your devices in no time. The power bank also features built-in protection to prevent overcharging and ensure safety while charging.",
+    "details": "\"\\\"{\\\\\\\"capacity\\\\\\\": \\\\\\\"10000mAh\\\\\\\", \\\\\\\"input\\\\\\\": \\\\\\\"USB-C\\\\\\\", \\\\\\\"output\\\\\\\": \\\\\\\"2x USB-A\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"250g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/518530/pexels-photo-518530.jpeg",
+    "category": "Electronics",
+    "price": 1499,
+    "isbestseller": false
+  },
+  {
+    "name": "Cordless Vacuum Cleaner",
+    "description": "This cordless vacuum cleaner offers powerful suction and long-lasting battery life, making it perfect for cleaning your home with ease. The lightweight design allows you to move around quickly and easily, and the versatile attachments make it easy to clean floors, upholstery, and hard-to-reach areas. The vacuum cleaner is ideal for both carpets and hard floors, delivering deep cleaning performance without the hassle of cords. It also features a high-efficiency filter that captures dust and allergens, ensuring a clean and healthy home environment.",
+    "details": "\"\\\"{\\\\\\\"battery_life\\\\\\\": \\\\\\\"45 minutes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"2kg\\\\\\\", \\\\\\\"suction_power\\\\\\\": \\\\\\\"200W\\\\\\\", \\\\\\\"filter\\\\\\\": \\\\\\\"HEPA\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/8566420/pexels-photo-8566420.jpeg",
+    "category": "Home & Kitchen",
+    "price": 3999,
+    "isbestseller": false
+  },
+  {
+    "name": "Stainless Steel Kettle",
+    "description": "Boil water in minutes with this efficient electric kettle. It features an automatic shut-off function for safety, and a stainless steel body for durability. Whether you're making tea, coffee, or instant noodles, this kettle ensures quick heating with a sleek and modern design. The compact size makes it easy to store in any kitchen, and the cordless design makes it easy to use. With a large capacity, you can boil enough water for multiple cups or bowls. The easy-to-clean design ensures hassle-free maintenance.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"stainless steel\\\\\\\", \\\\\\\"capacity\\\\\\\": \\\\\\\"1.5L\\\\\\\", \\\\\\\"automatic_shut_off\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"1kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/2616172/pexels-photo-2616172.jpeg",
+    "category": "Home & Kitchen",
+    "price": 1299,
+    "isbestseller": false
+  },
+  {
+    "name": "Noise Cancelling Headphones Set",
+    "description": "Immerse yourself in music, movies, or calls with these premium noise-cancelling headphones. With advanced noise cancellation technology, you can block out the world and focus on what matters most. These headphones are designed for long-lasting comfort with cushioned ear pads and an adjustable headband. The sound quality is exceptional, delivering deep bass and crisp treble for a rich listening experience. The headphones are Bluetooth-enabled, allowing you to enjoy wireless connectivity, and the battery life lasts for up to 20 hours on a single charge.",
+    "details": "\"\\\"{\\\\\\\"noise_cancellation\\\\\\\": \\\\\\\"active\\\\\\\", \\\\\\\"battery_life\\\\\\\": \\\\\\\"20 hours\\\\\\\", \\\\\\\"bluetooth\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"300g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/1646704/pexels-photo-1646704.jpeg",
+    "category": "Electronics",
+    "price": 4999,
+    "isbestseller": true
+  },
+  {
+    "name": "Gaming Mouse",
+    "description": "Level up your gaming experience with this ergonomic gaming mouse. It features customizable buttons, allowing you to set up shortcuts for your favorite games. The high-precision sensor ensures accurate movements, and the adjustable DPI allows you to fine-tune sensitivity to your preference. The RGB lighting adds a dynamic touch to your setup, and the durable build ensures this mouse will withstand hours of gaming sessions. Whether you're a casual player or a competitive gamer, this mouse gives you the edge you need.",
+    "details": "\"\\\"{\\\\\\\"dpi_range\\\\\\\": \\\\\\\"800-16000\\\\\\\", \\\\\\\"rgb_lighting\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"button_count\\\\\\\": \\\\\\\"6\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"100g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg",
+    "category": "Electronics",
+    "price": 1499,
+    "isbestseller": false
+  },
+  {
+    "name": "LED Desk Laptop Lamp",
+    "description": "Brighten your workspace with this energy-efficient LED desk lamp. It offers adjustable brightness levels, allowing you to customize the light to suit your needs. The lamp has a sleek, modern design that complements any desk or office space. The built-in USB port makes it easy to charge your devices while you work. Whether you're reading, studying, or working late into the night, this lamp provides the perfect lighting. The touch-sensitive controls make it easy to adjust the settings with a simple swipe.",
+    "details": "\"\\\"{\\\\\\\"brightness_levels\\\\\\\": \\\\\\\"5\\\\\\\", \\\\\\\"usb_port\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"aluminum\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"0.7kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/7199145/pexels-photo-7199145.jpeg",
+    "category": "Home & Kitchen",
+    "price": 999,
+    "isbestseller": false
+  },
+  {
+    "name": "Smartphone Stand",
+    "description": "Keep your phone at the perfect angle with this adjustable smartphone stand. Ideal for video calls, watching videos, or browsing, this stand ensures hands-free operation. The sturdy base keeps your phone secure, and the adjustable height and angle provide flexibility. The compact design makes it easy to carry and store. The stand is compatible with most smartphones and features non-slip grips to prevent slipping. Whether you're at home, in the office, or on the go, this stand offers convenience and stability.",
+    "details": "\"\\\"{\\\\\\\"adjustable_angle\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"non_slip\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"plastic\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"150g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/7777123/pexels-photo-7777123.jpeg",
+    "category": "Electronics",
+    "price": 399,
+    "isbestseller": false
+  },
+  {
+    "name": "Coffee Grinder",
+    "description": "Grind fresh coffee beans for the perfect cup with this compact coffee grinder. The durable stainless steel blade ensures even grinding, whether you're making espresso, French press, or drip coffee. The adjustable settings allow you to choose your desired grind size, while the clear lid lets you monitor the grinding process. The grinder is easy to clean and small enough to store on your countertop. Whether you're an occasional coffee drinker or a daily enthusiast, this grinder provides the ideal consistency for your brew.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"stainless steel\\\\\\\", \\\\\\\"grind_settings\\\\\\\": \\\\\\\"5\\\\\\\", \\\\\\\"capacity\\\\\\\": \\\\\\\"100g\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"300g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/1309778/pexels-photo-1309778.jpeg",
+    "category": "Home & Kitchen",
+    "price": 799,
+    "isbestseller": false
+  },
+  {
+    "name": "Electric Grill",
+    "description": "Cook delicious grilled food indoors with this electric grill. Whether it's burgers, vegetables, or seafood, this grill provides even heat distribution for perfect results every time. The non-stick surface makes it easy to clean, and the adjustable temperature control lets you choose the ideal cooking temperature. The compact size is perfect for small kitchens, and the portable design allows you to use it indoors or outdoors. This electric grill is perfect for quick and healthy meals with minimal mess.",
+    "details": "\"\\\"{\\\\\\\"non_stick_surface\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"adjustable_temperature\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"metal\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"2.5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/13995330/pexels-photo-13995330.jpeg",
+    "category": "Home & Kitchen",
+    "price": 2999,
+    "isbestseller": false
+  },
+  {
+    "name": "Wireless Keyboard",
+    "description": "Upgrade your typing experience with this wireless keyboard. The slim design offers a comfortable and quiet typing experience, perfect for long working hours. With wireless connectivity, you can easily connect it to your computer, tablet, or smart TV. The keys are responsive and designed for long-term durability. The compact size makes it ideal for both home and office setups, while the sleek finish complements any workspace. Say goodbye to tangled wires and enjoy a clutter-free environment with this modern keyboard.",
+    "details": "\"\\\"{\\\\\\\"wireless_range\\\\\\\": \\\\\\\"10 meters\\\\\\\", \\\\\\\"battery_life\\\\\\\": \\\\\\\"6 months\\\\\\\", \\\\\\\"material\\\\\\\": \\\\\\\"plastic\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"400g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/4143791/pexels-photo-4143791.jpeg",
+    "category": "Electronics",
+    "price": 1299,
+    "isbestseller": false
+  },
+  {
+    "name": "Bluetooth Car Kit",
+    "description": "Transform your car's audio system with this Bluetooth car kit. It allows you to stream music, make hands-free calls, and connect to your phone without the hassle of wires. The compact device plugs into your car's AUX port, and the Bluetooth technology ensures seamless connectivity with your phone or tablet. It also features a built-in microphone for crystal-clear calls, and the easy-to-use controls let you manage calls and music with a simple touch. Stay connected and enjoy your favorite music while driving with this convenient kit.",
+    "details": "\"\\\"{\\\\\\\"bluetooth_version\\\\\\\": \\\\\\\"4.2\\\\\\\", \\\\\\\"battery_life\\\\\\\": \\\\\\\"10 hours\\\\\\\", \\\\\\\"range\\\\\\\": \\\\\\\"10 meters\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"50g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/8985918/pexels-photo-8985918.jpeg",
+    "category": "Electronics",
+    "price": 699,
+    "isbestseller": false
+  },
+  {
+    "name": "Double Yoga Mat",
+    "description": "Achieve your fitness goals with this non-slip yoga mat. Designed for comfort and durability, this mat provides excellent cushioning and support during yoga, Pilates, or stretching exercises. The non-slip surface ensures stability, even during intense workouts, while the lightweight design makes it easy to roll up and carry. The mat is easy to clean and maintain, and it comes in various colors to match your style. Whether you're a beginner or an experienced yogi, this mat is perfect for your practice.",
+    "details": "\"\\\"{\\\\\\\"material\\\\\\\": \\\\\\\"PVC\\\\\\\", \\\\\\\"dimensions\\\\\\\": \\\\\\\"173x61 cm\\\\\\\", \\\\\\\"non_slip\\\\\\\": \\\\\\\"yes\\\\\\\", \\\\\\\"weight\\\\\\\": \\\\\\\"800g\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/864939/pexels-photo-864939.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 799,
+    "isbestseller": false
+  },
+  {
+    "name": "Vintage Leather Jacket",
+    "description": "A timeless piece made of premium leather, designed for a stylish and bold look. It features a slim fit, metallic zippers, and a comfortable inner lining.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Genuine Leather\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Black\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"M, L, XL\\\\\\\", \\\\\\\"Care Instructions\\\\\\\": \\\\\\\"Dry Clean Only\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/2257416/pexels-photo-2257416.jpeg",
+    "category": "Fashion",
+    "price": 12999,
+    "isbestseller": true
+  },
+  {
+    "name": "Boho Chic Dress",
+    "description": "A flowy and free-spirited dress perfect for summer. The dress comes with a floral print and bell sleeves, made from soft cotton fabric.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Cotton\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Blue Floral\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"S, M, L\\\\\\\", \\\\\\\"Care Instructions\\\\\\\": \\\\\\\"Machine Wash\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/11735827/pexels-photo-11735827.jpeg",
+    "category": "Fashion",
+    "price": 4999,
+    "isbestseller": false
+  },
+  {
+    "name": "Slim Fit Jeans",
+    "description": "These slim-fit jeans offer a sleek and modern look, perfect for any casual outing. Made from stretchable denim, they provide comfort and flexibility.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Denim\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Indigo\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"28-36\\\\\\\", \\\\\\\"Fit\\\\\\\": \\\\\\\"Slim\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/10512901/pexels-photo-10512901.jpeg",
+    "category": "Fashion",
+    "price": 3499,
+    "isbestseller": false
+  },
+  {
+    "name": "Floral Print Scarf",
+    "description": "A soft and lightweight scarf featuring a vibrant floral print. It's the perfect accessory to brighten up any outfit.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Silk\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Red Floral\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"One Size\\\\\\\", \\\\\\\"Care Instructions\\\\\\\": \\\\\\\"Hand Wash\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/7640758/pexels-photo-7640758.jpeg",
+    "category": "Fashion",
+    "price": 1499,
+    "isbestseller": true
+  },
+  {
+    "name": "Men's Oxford Shirt",
+    "description": "A classic oxford shirt in a crisp, breathable cotton fabric. Ideal for both formal and casual settings, with a tailored fit for a sharp look.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Cotton\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"White\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"S, M, L, XL\\\\\\\", \\\\\\\"Fit\\\\\\\": \\\\\\\"Slim\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/18351092/pexels-photo-18351092.jpeg",
+    "category": "Fashion",
+    "price": 2999,
+    "isbestseller": false
+  },
+  {
+    "name": "Chunky Knit Sweater",
+    "description": "This cozy, oversized sweater is perfect for chilly weather. The chunky knit design adds texture and warmth, while the relaxed fit keeps you comfortable.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Wool Blend\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Gray\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"S, M, L\\\\\\\", \\\\\\\"Care Instructions\\\\\\\": \\\\\\\"Dry Clean Only\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/5788181/pexels-photo-5788181.jpeg",
+    "category": "Fashion",
+    "price": 4999,
+    "isbestseller": true
+  },
+  {
+    "name": "Slip-on Sneakers",
+    "description": "A pair of comfortable slip-on sneakers with a casual style. These shoes are perfect for daily wear, offering a breathable design and easy on/off access.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Canvas\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Navy Blue\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"6-12\\\\\\\", \\\\\\\"Fit\\\\\\\": \\\\\\\"Regular\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/16234310/pexels-photo-16234310.jpeg",
+    "category": "Fashion",
+    "price": 2999,
+    "isbestseller": false
+  },
+  {
+    "name": "Wide Brim Straw Hat",
+    "description": "This wide-brimmed straw hat provides perfect protection from the sun while adding a fashionable touch to any summer outfit. Light and breathable material.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Straw\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Beige\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"One Size\\\\\\\", \\\\\\\"Care Instructions\\\\\\\": \\\\\\\"Spot Clean\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/14773329/pexels-photo-14773329.jpeg",
+    "category": "Fashion",
+    "price": 1999,
+    "isbestseller": false
+  },
+  {
+    "name": "Denim Vest",
+    "description": "A trendy denim vest with a relaxed fit, perfect for layering over a t-shirt or hoodie. Features distressed detailing and metal buttons for a rugged look.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Denim\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Light Wash\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"S, M, L\\\\\\\", \\\\\\\"Fit\\\\\\\": \\\\\\\"Relaxed\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/10609809/pexels-photo-10609809.jpeg",
+    "category": "Fashion",
+    "price": 3499,
+    "isbestseller": true
+  },
+  {
+    "name": "Maxi Summer Skirt",
+    "description": "A long, flowing maxi summer skirt that combines comfort and style. Perfect for a casual day out or a beach trip, this skirt comes in a soft cotton fabric with a bohemian design.",
+    "details": "\"\\\"{\\\\\\\"Material\\\\\\\": \\\\\\\"Cotton\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Black\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"S, M, L\\\\\\\", \\\\\\\"Care Instructions\\\\\\\": \\\\\\\"Machine Wash\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/29676895/pexels-photo-29676895.jpeg",
+    "category": "Fashion",
+    "price": 2599,
+    "isbestseller": false
+  },
+  {
+    "name": "The Great Gatsby by F. Scott Fitzgerald",
+    "description": "A classic novel by F. Scott Fitzgerald, set in the Roaring Twenties, exploring themes of decadence, idealism, resistance to change, social upheaval, and excess.",
+    "details": "\"\\\"{\\\\\\\"Author\\\\\\\": \\\\\\\"F. Scott Fitzgerald\\\\\\\", \\\\\\\"Genre\\\\\\\": \\\\\\\"Classics\\\\\\\", \\\\\\\"Pages\\\\\\\": \\\\\\\"180\\\\\\\", \\\\\\\"Language\\\\\\\": \\\\\\\"English\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/29663220/pexels-photo-29663220.jpeg",
+    "category": "Books",
+    "price": 699,
+    "isbestseller": false
+  },
+  {
+    "name": "Sapiens: A Brief History of Humankind by Yuval Noah Harari",
+    "description": "Yuval Noah Harari’s international bestseller that takes readers on a journey through the history of humanity, exploring how Homo sapiens came to dominate the Earth.",
+    "details": "\"\\\"{\\\\\\\"Author\\\\\\\": \\\\\\\"Yuval Noah Harari\\\\\\\", \\\\\\\"Genre\\\\\\\": \\\\\\\"Non-fiction\\\\\\\", \\\\\\\"Pages\\\\\\\": \\\\\\\"443\\\\\\\", \\\\\\\"Language\\\\\\\": \\\\\\\"English\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/6543271/pexels-photo-6543271.jpeg",
+    "category": "Books",
+    "price": 1099,
+    "isbestseller": true
+  },
+  {
+    "name": "The Catcher in the Rye by J.D. Salinger",
+    "description": "J.D. Salinger’s novel about Holden Caulfield, a disillusioned teenager who recounts his experiences in New York City after being expelled from an elite prep school.",
+    "details": "\"\\\"{\\\\\\\"Author\\\\\\\": \\\\\\\"J.D. Salinger\\\\\\\", \\\\\\\"Genre\\\\\\\": \\\\\\\"Fiction\\\\\\\", \\\\\\\"Pages\\\\\\\": \\\\\\\"277\\\\\\\", \\\\\\\"Language\\\\\\\": \\\\\\\"English\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/460/book-focus-jerome-david-salinger-novel.jpg",
+    "category": "Books",
+    "price": 899,
+    "isbestseller": false
+  },
+  {
+    "name": "The Book Thief by Markus Zusak",
+    "description": "Set during World War II in Nazi Germany, this is the story of Liesel Meminger, a young girl who finds solace in stealing books, while Death narrates the events surrounding her life.",
+    "details": "\"\\\"{\\\\\\\"Author\\\\\\\": \\\\\\\"Markus Zusak\\\\\\\", \\\\\\\"Genre\\\\\\\": \\\\\\\"Historical Fiction\\\\\\\", \\\\\\\"Pages\\\\\\\": \\\\\\\"552\\\\\\\", \\\\\\\"Language\\\\\\\": \\\\\\\"English\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/15382604/pexels-photo-15382604.jpeg",
+    "category": "Books",
+    "price": 1099,
+    "isbestseller": true
+  },
+  {
+    "name": "The Light Between Oceans by M.L. Stedman",
+    "description": "A poignant and emotional novel set in post-World War I Australia. It tells the story of a lighthouse keeper and his wife who raise a child they find washed ashore, leading to heartbreaking moral dilemmas.",
+    "details": "\"\\\"{\\\\\\\"Author\\\\\\\": \\\\\\\"M.L. Stedman\\\\\\\", \\\\\\\"Genre\\\\\\\": \\\\\\\"Historical Fiction\\\\\\\", \\\\\\\"Pages\\\\\\\": \\\\\\\"368\\\\\\\", \\\\\\\"Language\\\\\\\": \\\\\\\"English\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/1405736/pexels-photo-1405736.jpeg",
+    "category": "Books",
+    "price": 1099,
+    "isbestseller": true
+  },
+  {
+    "name": "Hydration Backpack with Bladder",
+    "description": "A lightweight and durable hydration backpack designed for long outdoor treks. It features a 2L water reservoir, adjustable straps, and reflective elements for safety. Perfect for hikers and bikers.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"CamelBak\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Nylon\\\\\\\", \\\\\\\"Capacity\\\\\\\": \\\\\\\"2L\\\\\\\", \\\\\\\"Color\\\\\\\": \\\\\\\"Black\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/5038791/pexels-photo-5038791.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 1999,
+    "isbestseller": true
+  },
+  {
+    "name": "Camping Tent for 4 People",
+    "description": "A spacious and weather-resistant 4-person tent that offers comfort and protection from the elements. Features include an easy setup, high-quality zippers, and excellent ventilation.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Coleman\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Polyester\\\\\\\", \\\\\\\"Capacity\\\\\\\": \\\\\\\"4\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 4999,
+    "isbestseller": false
+  },
+  {
+    "name": "Inflatable Paddleboard with Pump",
+    "description": "An inflatable stand-up paddleboard made of durable, non-slip material, ideal for both beginners and seasoned paddlers. Includes a manual pump, paddle, and carry bag for easy transport.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"iRocker\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"PVC\\\\\\\", \\\\\\\"Length\\\\\\\": \\\\\\\"10'6\\\\\\\"\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"8kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/9354898/pexels-photo-9354898.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 8999,
+    "isbestseller": true
+  },
+  {
+    "name": "Portable Camping Stove",
+    "description": "A compact and portable camping stove that runs on butane gas. Perfect for cooking in the outdoors, featuring an adjustable flame control and a stable base.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"MSR\\\\\\\", \\\\\\\"Fuel\\\\\\\": \\\\\\\"Butane\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"0.8kg\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Aluminum\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/5737944/pexels-photo-5737944.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 1599,
+    "isbestseller": false
+  },
+  {
+    "name": "Mountain Climbing Gear Set",
+    "description": "A complete set of climbing gear that includes carabiners, ropes, harnesses, and climbing shoes. Ideal for beginners or experienced climbers looking to explore new heights.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Black Diamond\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Steel\\\\\\\", \\\\\\\"Included\\\\\\\": \\\\\\\"Rope, carabiners, harnesses, shoes\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"3kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/27426783/pexels-photo-27426783.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 4999,
+    "isbestseller": true
+  },
+  {
+    "name": "Camping Hammock with Mosquito Net",
+    "description": "A comfortable hammock designed for camping, with an integrated mosquito net for a bug-free experience. It's made from durable parachute nylon and includes carabiners and straps for easy setup.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"ENO\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Parachute Nylon\\\\\\\", \\\\\\\"Capacity\\\\\\\": \\\\\\\"1\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"0.9kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/5737915/pexels-photo-5737915.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 2499,
+    "isbestseller": false
+  },
+  {
+    "name": "Waterproof Hiking Boots",
+    "description": "Sturdy and waterproof hiking boots designed for all-terrain use. These boots offer excellent ankle support and a non-slip sole for stability in wet or uneven environments.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Merrell\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Leather\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"42-46\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"1.2kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/2929284/pexels-photo-2929284.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 2999,
+    "isbestseller": true
+  },
+  {
+    "name": "Camping Lantern with USB Charging",
+    "description": "A rechargeable LED camping lantern that doubles as a USB power bank. Ideal for camping trips, it provides bright light for up to 12 hours and has multiple light settings.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Goal Zero\\\\\\\", \\\\\\\"Power\\\\\\\": \\\\\\\"Rechargeable\\\\\\\", \\\\\\\"Brightness\\\\\\\": \\\\\\\"500 lumens\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"0.5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/943150/pexels-photo-943150.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 1699,
+    "isbestseller": false
+  },
+  {
+    "name": "Snowboard with Bindings",
+    "description": "A high-performance snowboard designed for advanced riders. Features include a durable base, soft flex, and precision bindings that ensure a comfortable and responsive ride on any terrain.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Burton\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Wood Core\\\\\\\", \\\\\\\"Length\\\\\\\": \\\\\\\"159 cm\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"3.5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/7406686/pexels-photo-7406686.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 7999,
+    "isbestseller": true
+  },
+  {
+    "name": "Fishing Rod with Tackle Box",
+    "description": "A high-quality fishing rod with a complete tackle box filled with lures, hooks, and weights. Perfect for both beginner and intermediate anglers looking to catch fish on their next trip.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Shimano\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Fiberglass\\\\\\\", \\\\\\\"Length\\\\\\\": \\\\\\\"7ft\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"1.5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/4822245/pexels-photo-4822245.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 1999,
+    "isbestseller": false
+  },
+  {
+    "name": "Yoga Mat with Carry Strap",
+    "description": "A thick and durable yoga mat designed for maximum comfort and support during workouts. It comes with a carry strap for easy transportation, and the mat is non-slip for stability during poses.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Liforme\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"PVC\\\\\\\", \\\\\\\"Size\\\\\\\": \\\\\\\"183x61 cm\\\\\\\", \\\\\\\"Thickness\\\\\\\": \\\\\\\"6mm\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/4498574/pexels-photo-4498574.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 899,
+    "isbestseller": true
+  },
+  {
+    "name": "Bicycle Repair Kit",
+    "description": "A compact and portable bicycle repair kit that includes tire levers, a mini-pump, patches, and multitools. Ideal for cyclists who want to ensure their bike is always ready for a ride.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Park Tool\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Steel\\\\\\\", \\\\\\\"Included\\\\\\\": \\\\\\\"Mini-pump, tire levers, patches, multitool\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"0.5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/5446296/pexels-photo-5446296.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 799,
+    "isbestseller": false
+  },
+  {
+    "name": "Portable Hammock Stand",
+    "description": "A lightweight and durable hammock stand designed for easy setup anywhere. Ideal for camping or backyard lounging, it fits most hammocks and is easy to pack and transport.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Trek Light Gear\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Steel\\\\\\\", \\\\\\\"Capacity\\\\\\\": \\\\\\\"250 lbs\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"5kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/8038323/pexels-photo-8038323.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 3499,
+    "isbestseller": true
+  },
+  {
+    "name": "Ski Goggles with UV Protection",
+    "description": "Ski goggles designed for ultimate protection against UV rays and snow glare. Features include anti-fog lenses, adjustable straps, and a wide view to ensure clear visibility while skiing.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"Oakley\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Polycarbonate\\\\\\\", \\\\\\\"Lens\\\\\\\": \\\\\\\"Anti-fog\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"0.2kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/2624077/pexels-photo-2624077.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 1299,
+    "isbestseller": false
+  },
+  {
+    "name": "Backpacking Sleeping Bag",
+    "description": "A lightweight and compact sleeping bag designed for backpacking. It features a 3-season insulation, perfect for spring, summer, and fall camping, and packs down small for easy storage.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"The North Face\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Nylon\\\\\\\", \\\\\\\"Insulation\\\\\\\": \\\\\\\"Synthetic\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"1.1kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/5994748/pexels-photo-5994748.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 2499,
+    "isbestseller": true
+  },
+  {
+    "name": "Hiking Poles with Adjustable Length",
+    "description": "A pair of lightweight and sturdy hiking poles with an adjustable length feature for easy customization. Ideal for trekkers who need extra support and stability on uneven terrain.",
+    "details": "\"\\\"{\\\\\\\"Brand\\\\\\\": \\\\\\\"LEKI\\\\\\\", \\\\\\\"Material\\\\\\\": \\\\\\\"Aluminum\\\\\\\", \\\\\\\"Adjustable Length\\\\\\\": \\\\\\\"95-135 cm\\\\\\\", \\\\\\\"Weight\\\\\\\": \\\\\\\"0.8kg\\\\\\\"}\\\"\"",
+    "image": "https://images.pexels.com/photos/10856379/pexels-photo-10856379.jpeg",
+    "category": "Sports & Outdoors",
+    "price": 1599,
+    "isbestseller": false
+  }
+]

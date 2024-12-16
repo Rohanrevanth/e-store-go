@@ -223,6 +223,21 @@ func GetUserOders(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{"status": "success", "data": cart})
 }
 
+func GetAllOders(c *gin.Context) {
+	orders, err := database.GetAllOrders()
+	if err != nil {
+		if strings.Contains(err.Error(), "no orders found") {
+			// c.JSON(http.StatusNotFound, gin.H{"status": "error", "message": "Cart not found for the user"})
+			c.JSON(http.StatusOK, gin.H{"status": "success", "data": "{}"})
+		} else {
+			c.JSON(http.StatusInternalServerError, gin.H{"status": "error", "message": "Failed to retrieve orders"})
+		}
+		return
+	}
+
+	c.JSON(http.StatusOK, gin.H{"status": "success", "data": orders})
+}
+
 func SaveAddress(c *gin.Context) {
 	id := c.Param("id")
 	user, err := database.GetUserByID(id)

@@ -17,6 +17,7 @@ type User struct {
 	Password     string    `json:"password"`
 	OrdersCount  int64     `json:"orders_count,omitempty"`
 	SavedAddress Addresses `json:"saved_address,omitempty" gorm:"type:json"`
+	Type         string    `json:"type,omitempty"`
 }
 
 type Addresses []string
